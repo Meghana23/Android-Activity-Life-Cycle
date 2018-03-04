@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="225dp"
+    android:layout_height="120dp"
+    android:padding="12dip"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="12dip"
+        android:text="Simple Dialog"
+        tools:background="@android:color/holo_orange_dark"
+        tools:textColor="@android:color/background_dark"
+        tools:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_finish_dialog"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Close"
+        android:layout_gravity="center_horizontal"
+        android:onClick="finishDialog"
+        android:textAllCaps="false"
+        tools:textSize="18sp" />
+</LinearLayout>
